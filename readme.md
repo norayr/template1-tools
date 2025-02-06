@@ -20,7 +20,7 @@ nc -h
    ```
 Use a random port number. You may want to use your student id number to avoid port conflicts (I don't know if you studentt id number is less than 65535?)
    - What does this nc command do? Try to understand its function.
-2. Connect to the server from other terminal (cmd shell on windows). Figure out the command needed to connect to the listener by reading the `nc` manual, i. e.: `man nc` and connect to the port you used before. 
+2. Connect to the server from other terminal (cmd shell on windows). Figure out the command needed to connect to the listener by reading the `nc` manual, i. e.: `man nc` and connect to the port you used before.
 3. Type messages in both terminals and observe how they are sent and received.
 4. Experiment by connecting from another machine if possible.
 
@@ -91,6 +91,11 @@ ______________________________
      ```sh
      ip a
      ```
+or
+     ```sh
+     ifconfig -a
+     ```
+
 2. Share your IP address with a classmate and have them do the same.
 3. Decide who will listen and who will connect.
 4. Start a listener:
